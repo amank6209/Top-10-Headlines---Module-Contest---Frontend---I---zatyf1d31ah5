@@ -25,6 +25,7 @@ const App = () => {
     })
     console.log(newsData)
   },[category])
+
   return (
     <div id="main">
       <h1 className='heading'>Top 10 {category} news.</h1>
@@ -59,4 +60,4 @@ const App = () => {
 }
 
 
-export default App;
+export default App;
